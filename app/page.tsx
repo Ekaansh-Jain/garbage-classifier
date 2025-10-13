@@ -5,6 +5,7 @@ import type React from "react";
 import { useCallback, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { SiteFooter } from "./components/site-footer";
 import {
   Card,
   CardContent,
@@ -19,7 +20,6 @@ import { Separator } from "@/components/ui/separator";
 import { useToast } from "./hooks/use-toast";
 import { cn } from "@/lib/utils";
 import { SiteHeader } from "./components/site-header";
-import { SiteFooter } from "./components/site-footer";
 import { Recycle, ShieldAlert } from "lucide-react";
 
 // Types

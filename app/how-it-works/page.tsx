@@ -1,9 +1,8 @@
 import { SiteHeader } from "../components/site-header";
 import { SiteFooter } from "../components/site-footer";
-
 export default function HowItWorksPage() {
   return (
-    <main className="min-h-dvh bg-gradient-to-br from-white to-green-50">
+    <main className="flex flex-col min-h-screen bg-gradient-to-br from-white to-green-50">
       <SiteHeader />
       <section className="container mx-auto px-4 py-12">
         <div className="mx-auto max-w-3xl">
