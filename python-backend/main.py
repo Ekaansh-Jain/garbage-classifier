@@ -22,8 +22,7 @@ app.add_middleware(
 
 # Global variables for model and categories
 model = None
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "models", "garbage_classifier_fixed.keras")
-
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "garbage_classifier_fixed.keras")
 # Define your 6 categories - MUST match the model's training order!
 # ⚠️ ASK YOUR FRIEND FOR THE EXACT ORDER!
 CATEGORIES = [
